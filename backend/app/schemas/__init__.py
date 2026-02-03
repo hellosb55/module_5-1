@@ -1,3 +1,11 @@
 from app.schemas.example import ExampleCreate, ExampleResponse
+from app.schemas.auth import UserCreate, UserLogin, UserResponse, Token
 
-__all__ = ["ExampleCreate", "ExampleResponse"]
+__all__ = [
+    "ExampleCreate",
+    "ExampleResponse",
+    "UserCreate",
+    "UserLogin",
+    "UserResponse",
+    "Token",
+]
